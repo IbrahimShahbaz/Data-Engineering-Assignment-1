@@ -1,0 +1,14 @@
+{
+ "name": "covid19",
+ "namespace": "nifi",
+ "type": "record",
+ "fields": [
+ {"name": "Date" , "type":"int", "logicalType":"date"},
+ {"name": "Country_Region" , "type" : "string"},
+ {"name": "Difference" , "type" : "int"},
+ {"name": "Case_Type" , "type" : "string"},
+ {"name": "Cases" , "type" : "int"},
+ {"name": "Lat" , "type" : "float"},
+ {"name": "Long" , "type" : "float"}
+ ]
+}
